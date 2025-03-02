@@ -1,0 +1,92 @@
+{
+    "JioPay Business Overview": {
+      "What is JioPay Business?": "JioPay Business is a payment aggregator and gateway by Jio Payment Solutions Limited, a subsidiary of Reliance Industries Limited. It enables businesses to accept and process online and offline payments via web, mobile, and POS systems.",
+      "What is the purpose of the JioPay Business App?": "The JioPay Business App helps retailers, businessmen, and service providers track payments on the go. It allows users to accept payments, view transactions, issue refunds, edit profiles, and more.",
+      "How can I download the JioPay Business App?": "You can download the app from the Google Play Store by searching for 'JioPay Business' or using this link: https://play.google.com/store/apps/details?id=com.jiopay.business"
+    },
+    "Account & Login Issues": {
+      "I forgot my account password. How can I reset it?": "On the login screen, click 'Forgot Password' and follow the instructions to reset it.",
+      "I am unable to log in to the App/Dashboard. What can I do?": [
+        "Check your internet connection.",
+        "Reinstall the app to get the latest version.",
+        "Verify your username and password. Use the 'Forgot Password' option if needed."
+      ]
+    },
+    "JioPay Business Dashboard": {
+      "What is JioPay Business Dashboard?": "It is a centralized platform for merchants to manage their business and payments. It provides real-time analytics, transaction history, and reports.",
+      "Can I generate reports on JioPay Business Dashboard?": "Yes, you can export transaction, refund, and settlement reports in Excel or text format. Maximum historical data available is 6 months."
+    },
+    "Collect Link": {
+      "How can I create a Collect link?": "You can create it via API or JioPay Dashboard under the Payment Links section. Enter the amount and customer details, and the payment link will be sent via SMS/email.",
+      "What are the payment modes available via Collect link?": "Payments can be made via Cards, Net Banking, Wallets, and UPI, based on your merchant ID settings.",
+      "Can I use a single Collect link for multiple customers?": "No, each Collect link is unique to a single transaction.",
+      "What is the validity of a Collect link?": "Default validity is 90 days but can be extended up to 180 days.",
+      "Can I create bulk Collect links?": "Not yet, but this feature is under development.",
+      "Is partial payment allowed for Collect links?": "No, customers must pay the full amount specified in the link.",
+      "Can customers enter the payment amount?": "No, the amount is predefined by the merchant."
+    },
+    "User Management": {
+      "Can I add sub-users to JioPay Business?": "Yes, go to Settings → User Management in the dashboard to add sub-users and assign permissions.",
+      "How can a sub-user access the merchant dashboard?": "The sub-user must create a password via the Forgot Password option.",
+      "Can I block a sub-user?": "Yes, sub-users can be blocked, edited, or deleted under User Management. However, deleted users cannot be re-added with the same mobile number."
+    },
+    "Repeat Payments": {
+      "What is Repeat?": "Repeat is a billing system for automated recurring payments, useful for subscriptions and ongoing services.",
+      "What payment methods are supported for Repeat?": "Cards and UPI.",
+      "What is the maximum amount for debit without 2FA?": "As per RBI guidelines, up to ₹15,000 can be debited without two-factor authentication (2FA).",
+      "Can I offer free trials for subscriptions?": "Yes, you can use Standalone (₹2 refundable test transaction) or Inline (charge starts immediately) mandate registration.",
+      "Can I create Repeat via the dashboard?": "No, Repeat is only available via API."
+    },
+    "Campaign Management": {
+      "How can I create a campaign?": "Go to Campaigns in the JioPay Dashboard, click 'Create Campaign', configure settings, and publish it.",
+      "How can I edit a campaign?": "Select the Campaign ID, make changes, and save them.",
+      "How can I pause/stop a campaign?": "You can pause or stop campaigns via the Campaigns section in the dashboard."
+    },
+    "Settlements": {
+      "What is a settlement?": "Settlements are funds transferred to your bank account for payments received. Typically, settlement happens on T+1 working days (T = payment date).",
+      "How can I check settlements in my bank account?": "You can track settlements using the UTR number provided in the JioPay dashboard.",
+      "What should I do if I haven't received my settlement?": [
+        "Check the My Profile section for correct settlement details.",
+        "Verify your bank transactions for payments from JioPay, JPSL, or Reliance Payment Solutions.",
+        "If not received in 2 days, contact merchant.support@jiopay.in."
+      ],
+      "Can I update my settlement bank account?": "Yes, email merchant.support@jiopay.in with a canceled cheque."
+    },
+    "Refunds": {
+      "How can I issue a refund?": [
+        "Login to JioPay Business App/Dashboard.",
+        "Find the transaction.",
+        "Click 'Refund' and confirm."
+      ],
+      "How long do I have to issue a refund?": "Refunds can be processed within 180 days from the transaction date.",
+      "Can I cancel a refund?": "No, once processed, refunds cannot be canceled.",
+      "Is there a charge for refunds?": "No, but transaction processing fees from the original payment are non-refundable.",
+      "Can I do bulk refunds?": "Yes, you can upload a bulk refund file via the dashboard.",
+      "Is partial refund allowed in bulk refund?": "Yes, you can specify a partial refund amount in the file."
+    },
+    "Notifications & VoiceBox": {
+      "How can I disable SMS notifications?": "Go to Settings → User Management, edit user permissions, and uncheck the notification box.",
+      "What is JioPay VoiceBox?": "A device that provides instant voice confirmation for UPI payments. It connects via Jio SIM and offers additional services.",
+      "How does JioPay VoiceBox compare to other devices?": [
+        "Superior battery life",
+        "Exclusive entertainment content",
+        "4G high-speed connectivity",
+        "Reliable for noisy outdoor environments"
+      ],
+      "How do I get a new VoiceBox?": "Email merchant.support@jiopay.in with your store details."
+    },
+    "DQR (Dynamic QR Code)": {
+      "What is DQR?": "DQR (Dynamic QR Code) allows customers to scan and pay using UPI and wallets with auto-generated QR codes.",
+      "How do I generate a DQR?": "You can generate it via the JioPay Dashboard or API.",
+      "Is DQR different from a Static QR Code?": "Yes, DQR is unique for each transaction, while Static QR remains the same."
+    },
+    "Partner Program": {
+      "What is the JioPay Partner Program?": "It allows businesses and developers to integrate JioPay solutions into their services.",
+      "How can I join the Partner Program?": "Apply via the JioPay Business website or contact partner.support@jiopay.in."
+    },
+    "Low KYC Merchants": {
+      "Can Low KYC merchants accept payments?": "Yes, but with transaction limits as per RBI guidelines.",
+      "How can a Low KYC merchant upgrade?": "Submit full KYC documents via the JioPay dashboard."
+    }
+  }
+  
