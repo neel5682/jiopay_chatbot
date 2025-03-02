@@ -69,7 +69,7 @@ def is_relevant(distances, threshold=0.5):
 # Function to generate a response
 def generate_response(query, context):
     context_str = "\n".join([f"Q: {faq['question']}\nA: {faq['answer']}" for faq in context])
-    model = genai.GenerativeModel("models/gemini-pro")  # Use the correct model name
+    model = genai.GenerativeModel("models/gemini-1.5-pro-latest")  # Use the correct model name
     response = model.generate_content(
         f"Based on the following context, answer the user's question concisely:\n{context_str}\n\nQuestion: {query}"
     )
